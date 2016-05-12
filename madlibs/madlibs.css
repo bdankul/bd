@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'earwig_factoryregular';
+    src: url('fonts/earwig_factory_rg.eot');
+    src: url('fonts/earwig_factory_rg.eot?#iefix') format('embedded-opentype'),
+         url('fonts/earwig_factory_rg.woff2') format('woff2'),
+         url('fonts/earwig_factory_rg.woff') format('woff'),
+         url('fonts/earwig_factory_rg.ttf') format('truetype'),
+         url('fonts/earwig_factory_rg.svg#earwig_factoryregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4feff;
+}
+section {
+    width: 1280px;
+    height: 800px;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+}
+
+form {
+    line-height: 3.4em;
+    margin: 0px 0 0 50px;
+    text-align: right;
+    width: 30%;
+    float: left;
+}
+form label {
+    font-family: 'oswald', sans-serif;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+form input {
+    padding: 8px;
+}
+
+div {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    height: auto;
+    padding: 30px;
+    font-family: 'earwig_factoryregular';
+    font-size: 2.5em;
+    text-align: center;
+    
+}
+
+em {
+    text-transform: capitalize;
+    font-style: normal;}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+    
+}
+.backgroundChangeHide {
+    background-image: url(background.jpg);
+}
+.backgroundChange {
+    background-image: url(background-2.jpg);
+}
+
+header {
+    font-family: 'dosis', sans-serif;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    width: 400px;
+    text-align: right;
+    margin-top: 70px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    color: #16223c;
+}
+
+input[type=text] {
+    font-family: 'Dosis', sans-serif;
+}
+
+input[type=submit] {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background: #fff;
+    letter-spacing: 1px;
+    border: none;
+    margin-left: 5px;
+    margin-top: 30px;
+}
+input[type=reset] {
+    font-family: 'Dosis', sans-serif;
+    padding: 10px;
+    background: #fff;
+    letter-spacing: 1px;
+    border: none;
+}
+
+input[type=reset]:hover {
+    color: #bf9cbd;
+}
+input[type=submit]:hover {
+    color: #bf9cbd;
+}
+
+footer {
+    position: fixed;
+    bottom: 15px;
+    left: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #ded3c4;
+}
+a:link {
+    text-decoration: none;
+    color: #ded3c4;
+}
+a:visited {
+    color: #ded3c4; 
+}
+a:hover {
+    letter-spacing: 2px; 
+}
+

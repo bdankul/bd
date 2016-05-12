@@ -1,0 +1,151 @@
+* {
+	padding:0;
+	margin: 0;}
+	
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('type/ostrichsans-medium-webfont.eot');
+    src: url('type/ostrichsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/ostrichsans-medium-webfont.woff2') format('woff2'),
+         url('type/ostrichsans-medium-webfont.woff') format('woff'),
+         url('type/ostrichsans-medium-webfont.ttf') format('truetype'),
+         url('type/ostrichsans-medium-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('type/raleway-light-webfont.eot');
+    src: url('type/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/raleway-light-webfont.woff2') format('woff2'),
+         url('type/raleway-light-webfont.woff') format('woff'),
+         url('type/raleway-light-webfont.ttf') format('truetype'),
+         url('type/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('type/raleway-medium-webfont.eot');
+    src: url('type/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/raleway-medium-webfont.woff2') format('woff2'),
+         url('type/raleway-medium-webfont.woff') format('woff'),
+         url('type/raleway-medium-webfont.ttf') format('truetype'),
+         url('type/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@keyframes rainbow-type {
+    0% {color: #dedb81;}    
+    25% {color: #8db2ab;}
+    50% {color: #a3bac4;}
+    75% {color: #9a8da0;}
+    100% {color: #ba8f8c;}
+    }
+
+#button-container {
+	border-style: none;
+	background-color: transparent;
+	margin-top: 80px;
+	height: 200px;}
+#button {
+	margin: 30px auto;
+	background-color: #FBB03B;
+	width: 150px;
+	height: 50px;
+	border-style: none;
+}	
+#button p {
+	font-size: 42px;
+	letter-spacing: 3px;
+	margin-top: -30px;
+	font-family: 'raleway-light', verdana;
+	font-size: 2.5em;}
+}
+#button a:link {
+	color: black;
+	text-decoration: none;
+}
+#button a:visited {
+	color: black;}
+#button a:hover {
+	color: white;}
+section {
+	width: 100%;
+	height: auto;
+	margin-top: 75px;
+	text-align: center;}
+contain-colors {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	margin-top: 75px;
+	text-align: center;}
+section {
+	width: 90%;
+	height: auto;
+	margin: auto;
+	padding-top: 100px;
+	text-align: center;}
+div {overflow: hidden;}
+div p {font-family: 'ostrich_sansmedium', verdana;
+	font-size: 4em;
+	padding-top: 20%;
+	letter-spacing: 2px;}
+
+.red {color: #d55740;}
+.yellow {color:#feee70;}
+.orange {color: #f9a13d;}
+.blue {color: #88b3fc;}
+.green {color:#94cf7f;}
+.violet {color: #b68ba6;}
+
+
+#red {
+	width: 20%;
+	height: 150px;
+	background-color: #d55740;
+	display: inline-block;}
+#red p {color: white;}
+#yellow {
+	width: 10%;
+	height: 150px;
+	background-color: #feee70;
+	display: inline-block;}
+#orange {
+	width: 10%;
+	height: 150px;
+	background-color: #f9a13d;
+	display: inline-block;}
+#green {
+	width: 10%;
+	height: 150px;
+	background-color: #94cf7f;
+	display: inline-block;}
+#blue {
+	width: 10%;
+	height: 150px;
+	background-color: #88b3fc;
+	display: inline-block;}
+#blue p{
+	display:none;
+	}
+#blue-full {width: 10%;
+	height: 150px;
+	background-color: #88b3fc;
+	display: inline-block;
+	color: white;
+	overflow: hidden;}
+#blue-full p {display: none;}
+.blue-hide {display: visible;
+	color: black;
+	margin-top: -150px;}
+.blue p {color: white;
+	margin-top: -20px;}
+#purple {
+	width: 20%;
+	height: 150px;
+	background-color: #b68ba6;
+	display: inline-block;
+	}
+#purple p {color: white;}

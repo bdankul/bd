@@ -1,0 +1,134 @@
+/*Rose c09191 GREYBLUE #BDCCD4*/
+
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('type/ostrichsans-medium-webfont.eot');
+    src: url('type/ostrichsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/ostrichsans-medium-webfont.woff2') format('woff2'),
+         url('type/ostrichsans-medium-webfont.woff') format('woff'),
+         url('type/ostrichsans-medium-webfont.ttf') format('truetype'),
+         url('type/ostrichsans-medium-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('type/raleway-light-webfont.eot');
+    src: url('type/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/raleway-light-webfont.woff2') format('woff2'),
+         url('type/raleway-light-webfont.woff') format('woff'),
+         url('type/raleway-light-webfont.ttf') format('truetype'),
+         url('type/raleway-light-webfont.svg#ralewaylight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('type/raleway-medium-webfont.eot');
+    src: url('type/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/raleway-medium-webfont.woff2') format('woff2'),
+         url('type/raleway-medium-webfont.woff') format('woff'),
+         url('type/raleway-medium-webfont.ttf') format('truetype'),
+         url('type/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+div {
+	margin: auto;
+	background-color: #FBB03B;
+	width: 150px;
+	height: 50px;}	
+div p {
+	font-size: 42px;
+	letter-spacing: 3px;}
+div a:link {
+	color: black;
+	text-decoration: none;}
+div a:visited {
+	color: black;}
+div a:hover {
+	color: white;}
+body {
+	background-color: #bbd9da;
+	animation-name: rainbow-background;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;}
+header {
+	font-family: 'ostrich_sansmedium', verdana;
+	font-size: 100px;
+	letter-spacing:5px;
+	margin: 0;
+	color: black;
+	padding-top: 40%;
+	padding-bottom: 40%;
+	animation-name: rainbow-type;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;}
+h1 {
+	font-family: 'ostrich_sansmedium', verdana;
+	font-size: 3em;}
+	
+h2 {
+	font-family: 'ralewaymedium', verdana;
+	}
+
+p {
+	font-family: 'ralewaylight', verdana;
+	}
+
+b {
+	font-family: 'ralewaymedium', verdana;}
+	
+section {
+	text-align: center;
+	width:250px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	}	
+#button {
+	margin: auto;
+	background-color: #FBB03B;
+	width: 150px;
+	height: 50px;}	
+#button p {
+	font-size: 42px;
+	letter-spacing: 3px;}
+#button a:link {
+	color: black;
+	text-decoration: none;}
+#button a:visited {
+	color: black;}
+#button a:hover {
+	color: white;}
+	
+@keyframes rainbow-type {
+    0% {color: #d55740;}    
+    25% {color: #f9c430;}
+    50% {color: #feee70;}
+    75% {color: #d4f253;}
+    100% {color: #c2d952;}
+    }
+@keyframes rainbow-background {
+    0% {background-color: #b8cccc;}    
+    25% {background-color: #9dbab6;}
+    50% {background-color: #9dbaaf;}
+    75% {background-color: #c4bfd8;}
+    100% {background-color: #80a1b7;}
+    }
+    
+
+/*red d55740 orange f9a13d yellow feee70 green 94cf7f blue 88b3fc violet b68ba6*/
