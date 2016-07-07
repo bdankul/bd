@@ -6,61 +6,78 @@ body {
     width: 100%;
     font-family: 'news cycle', sans-serif;
 }
+/* HEADER */
+
 h1 {
     font-family: 'news cycle', sans-serif;
     font-size: 62px;
     letter-spacing: 3px;
     color: #dedede;  
     line-height: 27px;
-    padding-top: 45px;
-    position: fixed;
+    float: left;
+    margin-left: 35px;
 }
 
 #last {
     font-family: 'roboto condensed', sans-serif;
     color: #b5b5b5;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 17.5px;
+    letter-spacing: 2.4px;
     margin-left: 3px;
+    animation-name: last;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
 }
 
 header {
-    padding-left: 35px;
-    min-height: 140px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 100%; 
+    top: 0;
+    z-index: 2;
+    /*background-color: rgba(255, 255, 255, 0.5);*/
 }
 
-nav {
-    position: fixed;
-    right: 30px;
-    margin-top: 40px;    
+header img {
+    display: none;
+}
+
+/* NAV */
+
+nav {   
     font-size: 1.1em;
     letter-spacing: 1.7px;
     text-transform: uppercase;
     font-family: 'news cycle', sans-serif;
     text-align: right;
+    float: right;
+    margin-right: 35px;
 }
 
 nav li {
     display: inline-block;
     list-style-type: none;
     margin-left: 20px;
+    background-color: rgb(255,255,255);
 }
 li a {
     color: #ada9a9;
+    text-decoration: none;
+}
+
+#underline {
+    border-bottom: .5px solid black;
 }
 #current {
     color: #383838;
 }
-#underline {
-    border-bottom: .5px solid black;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
+
 header a:hover {
     color: #ff2700;
 }
+
 
 #work li {
     list-style-type: none;
@@ -72,17 +89,19 @@ header a:hover {
     margin-top: 20px;
     color: #404040;
 }
-#work a:hover {
-    color: #daff41;
+#work a {
+    color: #404040;
 }
 
+#pictures {
+    margin-top: 150px;
+}
 /* PICTURES SECTION */
 
 #pictures {
     height: 68vh;
     display: inline-block;
     width: 100%;
-    
     white-space: nowrap;
     overflow-x: scroll;
 }
@@ -101,9 +120,10 @@ header a:hover {
 /* WEB DESIGN SECTION */
 
 #web {
-    margin: 110px 80px;
+    margin: 250px 80px;
     height: auto;
 }
+
 #web h3 {
     letter-spacing: 1.2px;
     font-family: 'roboto condensed',sans-serif;
@@ -114,8 +134,7 @@ header a:hover {
 }
 
 #web aside { 
-    width: 48%;
-    margin-bottom: 40px;
+    width: 45%;
     text-align: left;
 }
 #web p {
@@ -129,17 +148,26 @@ header a:hover {
     color: #383838;
     margin-top: 5px;
 }
+#web p i {
+    font-size: .8em;
+}
 #web article {
     text-align: center;
-    margin-top: 20px;
+    margin: 40px auto 40px;
+    
 }
 #web img, #web aside, #color h2 {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 #web img {
     margin: 10px 40px;
 }
+#web a {
+    color: #ff2700;
+    text-decoration: none;
+}
+
 #thought {
     position: relative;
     top: -20px;
@@ -170,11 +198,14 @@ footer a {
     animation-name: background;
     animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-direction:alternate;
+    animation-direction: alternate;
 }
-@keyframes start {
-    from {color: #FBB03B;}
-    to {color: #feee70;}
+@keyframes last {
+    0% {color: #eaeaea;}    
+    25% {color: #f4f4f4;}
+    50% {color: #e2e2e2;}
+    75% {color: #c6c6c6;}
+    100% {color: #d8d8d8;}
     }
 @keyframes background {
     0% {color: #dedb81;}    
@@ -198,18 +229,68 @@ footer a {
 
 /* GRAPHIC SECTION */
 #graphic {
-    width: 820px;
-    margin: 20px auto;
+    width: 750px;
+    margin: 190px auto;
 }
 #graphic div {
     display: inline-block;
     margin-left: 2px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    height: 200px;
+    vertical-align: top;
 }
 #graphic img {
-    height: 456px;
+    width: 100%;
 }
 
-/* About Me */
+div.foam {
+    border: 1px solid black;
+}
+
+#container img {
+    width: 32.9%;
+    display: inline-block;
+}
+
+#graphic i {
+    float: right;
+    margin: 5px 10px 0px 0px;
+}
+#graphic h3 {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-top: 30px;    
+    font-family: 'libre franklin', serif;
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+#graphic div p, #graphic li {
+    font-family: 'open sans condensed', sans-serif;
+    letter-spacing: .2px;
+}
+#graphic div p {
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#graphic div p, #graphic li {
+    font-family: 'libre franklin', sans-serif;
+    letter-spacing: .2px;
+}
+#graphic li {
+    font-size: .9em;
+    margin-left: 15px;
+    list-style-type: none;
+}
+#graphic p:last-child {
+    font-size: .8em;
+    margin-left: 15px;
+}
+
+
+/* --------------------------- About Me */
 
 .about {
     text-align: center;
@@ -224,13 +305,28 @@ footer a {
     letter-spacing: 1.3px;
     margin-bottom: 5px;
 }
+section#more {
+    
+}
+/* ------------------------- Art Prints */
 
 section#art {
-    width: auto;
-    margin: 30px auto;
+    width: 80%;
+    margin: 190px auto;
+    
 }
 #art img {
-    height: 600px;
-    width: 33%;
+    width: 100%;
 }
 
+#art div {
+    width: 50%;
+}
+
+#col1 {
+    float: left;
+}
+
+#col2 {
+    float: right;
+}

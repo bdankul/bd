@@ -7,7 +7,7 @@ $(document).ready(function(){
     console.log("js ready");
     
     // Hide work content
-    $('.content').hide();
+    $('section.hide').hide();
     
     
     $('nav ul#work li').hover(
@@ -45,6 +45,7 @@ $(document).ready(function(){
 
     console.log("all reading");
     
+    // Footer hover shows blurb
     $('#aboutFooter p').hide();
     
     $('#aboutFooter i.fa-pinterest').hover(
@@ -72,5 +73,26 @@ $(document).ready(function(){
         function(){
             $('#aboutFooter p#tTip').hide();
         });
+    
+    // Prints Mouseover
+    $('#art img').css('opacity','.7');
+    $('#art img').mouseover(
+        function(){
+            $(this).css('opacity','1');
+        });
+    
+    // new graphic click enlarge 
+    $('#graphic div.expand').on('click', function(event) {
+      $(this).css({
+          'height': 'auto',
+          'borderBottom': '1px solid black',
+      });
+    });
+    
+    // arrow hide content change height
+    $('#graphic i').dblclick( 
+        function(){
+            $('#graphic div.expand').css('height','200px');
+        })
     
 }) //end ready
