@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>RIY-DIY</title>
+
+    <!--Link to google font-->
+    <!--to change | replace with '%7c'-->
+
+
+    <!--Link to CSS-->
+    <link type="text/css" rel="stylesheet" href="main.css">
+
+    <!--Link to JS-->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!--Link to JS UI-->
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+    <!--link to custom JS-->
+    <script type="text/javascript" src="recycle.js"></script>
+
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/2f19a01fd3.js"></script>
+
+    <!--Responsive screen size-->
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" media="screen and (min-width: 990px)" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 990px)" href="css/main-small.css">
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="images/riydiy-logo.svg">
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="reduce.html">REDUCE</a></li>
+                <li><a href="reuse.html">REUSE</a></li>
+                <li><a href="#" id="current">- RECYCLE -</a></li>
+            </ul>
+        </nav>
+        <div id="social">
+            <ul>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube" aria-hidden="true"></i>
+</li>
+            </ul>
+        </div>
+    </header>
+    <section id="recycle">
+        
+        <ul>
+            <li>Zip code:</li>
+            <li id="zip"><input type="text"></li>
+            <li id="paper">Paper</li>
+            <li id="plastic">Plastic</li>
+            <li id="metal">Metal</li>
+            <li id="clothing">Clothing</li>
+            <li id="electronics">Electronics</li>
+            <li id="batteries">Batteries</li>
+        </ul>
+        
+        <map id="map">
+        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'></div><div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="https://termsofusegenerator.net">terms of use example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(38.5449065,-121.7405167),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(38.5449065,-121.7405167)});infowindow = new google.maps.InfoWindow({content:'<strong>Recycle!</strong><br>Davis, CA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+            </map>
+        <article class="paper">
+            <h4>Yolo County Central Landfill and Recycling Center</h4>
+            <p>
+                (530) 666-8856<br>
+                44090 County Road 28H<br>
+                Woodland, CA 95776
+            </p>
+        </article>
+        <article class="paper">
+            <h4>UC Davis Recycling Program</h4>
+            <p>
+                (530) 752-6970<br>
+                Mrak Hall Dr<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="plastic">
+            <h4>Safeway</h4>
+            <p>
+                (530) 792-8500<br>
+                2121 Cowell<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="plastic">
+            <h4>NexCycle</h4>
+            <p>
+                (909) 796-2210<br>
+                1900 Anderson Rd<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="metal">
+            <h4>Davis Waste Removal Company Inc.</h4>
+            <p>
+                (530) 756-4646<br>
+                2727 2nd St.<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="metal">
+            <h4>Aztlan Recycling</h4>
+            <p>
+                (661) 361-4373<br>
+                4810 Chiles Rd<br>
+                Davis, CA 95618
+            </p>
+        </article>
+        <article class="clothing">
+            <h4>SPCA Yolo County Thrift</h4>
+            <p>
+                (530) 758-0544<br>
+                920 3rd St.<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="clothing">
+            <h4>Miracle Christmas Worship Center</h4>
+            <p>
+                (510) 932-3839<br>
+                470 E H St.<br>
+                Dixon, CA 95620
+            </p>
+        </article>
+        <article class="batteries">
+            <h4>Rite Aid</h4>
+            <p>
+                (530) 756-3393<br>
+                655 Russell Blvd<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="batteries">
+            <h4>CVS Pharmacy</h4>
+            <p>
+                (530) 757-1022<br>
+                1471 W Covell Blvd<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="batteries">
+            <h4>Radioshack</h4>
+            <p>
+                (530) 758-0640<br>
+                634 G St.<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="electronics">
+            <h4>Target</h4>
+            <p>
+                (530) 761-0126<br>
+                4601 2nd St.<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        <article class="electronics">
+            <h4>Office Max</h4>
+            <p>
+                (530) 792-0824<br>
+                2107 Cowell Blvd<br>
+                Davis, CA 95616
+            </p>
+        </article>
+        
+    </section>
+    
+
+</body>
+
+</html>
