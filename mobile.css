@@ -57,7 +57,7 @@ header {
     width: 100%; 
     position: fixed;
     z-index: 2;
-
+    top: 0;
 }
 header img {
     float: left;
@@ -214,12 +214,13 @@ h5 {
 
 #talk {
     padding: 10px;
-    margin: 20px auto;
-    width: 180px;
+    margin: 0px auto;
+    width: 170px;
 }
 #talk h2 {
-    font-size: 2.9em;
+    font-size: 2.7em;
     letter-spacing: .75px;
+    margin-top: 140px;
 }
 
 #talk a {
@@ -286,7 +287,7 @@ h5 {
 #graphic {
     width: 90%;
     text-align: left;
-    margin: 0 auto;
+    margin: 170px auto;
 }
 #graphic div {
     display: block;
@@ -401,10 +402,11 @@ footer {
     font-size: 1.3em;
     margin-top: 20px;
 }
-footer p{
-    font-size: .2em;
-    margin-bottom: -10px;
+footer p{ 
+    font-size: .6em;
+    font-family: 'roboto', sans-serif;
 }
+
 footer a {
     color: #505050;
     margin: 0 1px;
