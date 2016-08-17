@@ -6,6 +6,11 @@ $(document).ready(function(){
    
     console.log("js ready");
     
+    // arrow hide content change height
+    $('#graphic div.expand h3 i').on('click', function() {
+            $(this).closest("div").css('height','200px');
+        });
+    
     // Hide work content
     $('section.hide').hide();
     
@@ -89,10 +94,5 @@ $(document).ready(function(){
       });
     });
     
-    // arrow hide content change height
-    $('#graphic i').dblclick( 
-        function(){
-            $('#graphic div.expand').css('height','200px');
-        })
     
 }) //end ready
